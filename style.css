@@ -19,9 +19,9 @@ section {
 }
 
 section .btn {
-    padding-left: 5.5rem;
-    padding-right: 5.5rem;
-    padding-top: 15rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 9rem;
 
 }
 
@@ -49,6 +49,8 @@ section .btn .messi:hover {
 }
 
 .by {
-    margin-top: 15rem;
+    color: aliceblue;
+    font-size: 0.8rem;
+    margin-top: 14rem;
     text-decoration: underline;
 }
