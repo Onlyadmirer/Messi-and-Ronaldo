@@ -1,0 +1,50 @@
+* {
+    text-decoration: none;
+    font-family: 'poppins', sans-serif;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    background-image: url(/img/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+section .btn {
+    padding-left: 5.5rem;
+    padding-right: 5.5rem;
+    padding-top: 15rem;
+
+}
+
+section .btn .ronaldo {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    padding: 0.5rem 2rem;
+    border-radius: 6px;
+    background-color: #ffffff61;
+    color: #010101;
+}
+
+section .btn .messi {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    padding: 0.5rem 2rem;
+    border-radius: 6px;
+    background-color: #ffffff61;
+    color: #010101;
+}
+
+section .btn .ronaldo:hover {
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.868);
+}
+section .btn .messi:hover {
+    box-shadow: 0 4px 10px rgba(56, 4, 124, 0.868);
+}
